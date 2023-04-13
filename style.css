@@ -1,3 +1,17 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  }
+
+.content {padding:20px;
+text-align: center;
+background-image: url("white-objects.png");
+}
+
+
 hr {
     margin: auto;
     width: 40%;
@@ -9,6 +23,7 @@ font-size: 26px;
     font-family: "sans-serif";
  text-align: center;
     width: 100%;
+    color: white;
 }
 
 
@@ -95,6 +110,8 @@ body {
     .text {
     text-align: center;
     width: 100%;
+    font-size: 24px;
+
 }
       .text2 {
     text-align: left;
@@ -108,4 +125,8 @@ body {
       @font-face {
     font-family: "sans-serif";
     src: url("font/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+.center {
+text-align: center;
+background-image: url("white-objects.png");
 }
