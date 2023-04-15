@@ -21,6 +21,7 @@ font-size: 26px;
 }
 
 
+
 @keyframes mymove {
     from {left: 0px;}
   to {left: 300px;}
