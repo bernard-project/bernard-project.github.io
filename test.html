@@ -42,10 +42,9 @@ body {
   padding: 0;
   font-size: 16px;
   background: #fff;
+  overflow: scroll;
 }
-body section {
-  display: block;
-}
+
 body h1,
 body h2,
 body h3,
@@ -158,10 +157,12 @@ body a {
 }
 .main-header .header-wrapper .main-menu li:last-child {
   padding: 0.75em 0;
+  position: relative;
 }
 .main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
 .main-header .header-wrapper .main-menu li:last-child a:hover {
   border: none;
+  position: relative;
 }
 /* Section-1 Styles */
 #section-1 {
@@ -351,6 +352,7 @@ body a {
   }
   .main-header .header-wrapper {
     width: 57%;
+  position: relative;
   }
   #section-1 {
     height: 46em;
@@ -365,6 +367,7 @@ body a {
   }
   .main-header .header-wrapper {
     width: 60%;
+  position: relative;
   }
   #section-1 {
     height: 43em;
@@ -379,6 +382,7 @@ body a {
   }
   .main-header .header-wrapper {
     width: 65%;
+  position: relative;
   }
   #section-1 {
     height: 40em;
@@ -398,6 +402,7 @@ body a {
 @media only screen and (max-width: 1120px) {
   .main-header .header-wrapper .main-menu li {
     padding: 0.75em 1.4em;
+  position: relative;
   }
   #section-1 {
     height: 35em;
@@ -512,6 +517,7 @@ body {
   background: #E87A5D;
   color: #514B64;
   min-height: 100vh;
+  position: relative;
 }
 
 code {
@@ -550,16 +556,13 @@ font-family: Dancing Script;
 </head>
 <body>
 
-
+<div class="body">
 
 <header class="main-header">
   <div class="header-wrapper">
     <div class="main-logo">Bernard-l'Ermite</div>
     <nav>
       <ul class="main-menu">
-        <li><a href="#section-2">About</a></li>
-        <li><a href="#section-5">Service</a></li>
-        <li><a href="#section-7">Work</a></li>
         <li><a href="#section-9">Blog</a></li>
         <li><a href="#main-footer">Contact</a></li>
         <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
@@ -659,6 +662,7 @@ font-family: Dancing Script;
   <br>
   <h1 style="font-family: Dancing Script;">Bernard-l'Ermite</h1><br />
   <h2 style="font-family: Dancing Script;">Groep 3</h2><h2 style="font-family: Dancing Script;">Gijs, Luka, Daan</h2>
+</div>
 </div>
 </body>
 </html>
